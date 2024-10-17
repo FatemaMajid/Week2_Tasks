@@ -1,0 +1,35 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    /* width: 1200px; */
+    height: auto;
+    margin-top: 25px;
+    /* background-color: brown;
+    /* margin-left: 173;
+    margin-right: 173; */
+    /* background-color: brown; */
+}
+
+.cards .card {
+    background-color: #f9f9f9;
+    /* border: 1px solid #ccc; */
+    /* padding: 20px; */
+    /* text-align: center; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* width: 200px;*/
+
+}
+.cards .card img{
+    width: 100%;
+    height: 231px;
+}
+
+.cards .card h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cards .card p {
+    color: #777;
+}

@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+header {
+    margin-top: 25px;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header .content .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #14203E3D;
+    margin-left: 16px;
+}
+
+header .content .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+header .content .menu a {
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #575870;
+    font-weight: bold;
+
+
+}
+
+header .content .menu .active {
+    border-radius: 20px;
+    background: #F1F1FD;
+    padding: 10px 15px 10px 15px;
+    color: #202142;
+
+
+
+}
+
+header .content .btns .login-btn {
+    border: none;
+    font-size: 18px;
+    background: none;
+    width: 111px;
+    height: 49px;
+    font-weight: bold;
+}
+
+header .content .btns .trail-btn {
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #14203E;
+    width: 179px;
+    height: 49px;
+    /* margin-left: 16px; */
+}
+
+.banner {
+    background: #FCFCFF;
+    height: 500px;
+    border-top: 1px solid #EFEFFF;
+}
+
+.banner .b-content {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.banner .day {
+    position: absolute;
+    width: 106px;
+    height: 40px;
+    top: 189px;
+    left: 143px;
+    border-radius: 10px 0px 0px 0px;
+
+}
+
+.banner .b-content h1 {
+    font-size: 22px;
+    color: #14203E;
+}
+
+.banner .b-content p {
+    font-size: 25px;
+    /* font-family: Poppins ; */
+    margin-top: 10px;
+    color: #14203E;
+}
+
+.banner .b-content .search-box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    height: 70px;
+    padding-top: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 16px 35px -15px #02058426;
+}
+
+.b-content .search-box .box {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding-right: 15px;
+    border-right: 1px solid #EFEFFF;
+    padding-top: 70;
+}
+
+.b-content .search-box .box img {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.b-content .search-box .search {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding-right: 15px;
+
+}
+
+.b-content .search-box .search img {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.b-content .search-box .search p {
+
+    color: #575870;
+}
+
+.middle-section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.middle-section .btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EFEFFF;
+    background: #FCFCFF;
+    border-radius: 70px;
+    width: 240px;
+}
+
+.middle-section .btn .latest {
+    border: 1px solid #EFEFFF;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px -10px #0205840D;
+    border-radius: 45px;
+    padding: 15px 30px 15px 30px;
+    margin-left: 15px;
+}
+
+.middle-section .btn .popular {
+
+    padding: 15px 30px 15px 0;
+    margin-left: 15px;
+}
+
+.middle-section .m-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.middle-section .m-menu a {
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #575870;
+    font-weight: bold;
+}
+
+.middle-section .m-menu .active {
+    border-radius: 50%;
+    border: 1px solid #EFEFFF;
+    padding: 10px 15px 10px 15px;
+    color: #202142;
+    height: 25px;
+    width: 25px;
+}
+
+.middle-section .brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.middle-section .brands .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #EFEFFF;
+    margin-left: 10px;
+}
+
+.middle-section .brands .image img {
+    width: 29px;
+    height: 29px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    margin-top: 25px;
+    margin-left: 80px;
+    padding-left: 0px;
+
+}
+
+.cards .card {
+    width: 400px;
+    height: 380px;
+}
+
+.cards .card img {
+    width: 100%;
+    position: relative;
+}
+
+.cards .card .brand {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #EFEFFF;
+    background: #FCFCFF;
+    top: 755px;
+    left: 110px;
+
+}
+
+.cards .card .brand img {
+    width: 29px;
+    height: 29px;
+    margin-top: 16px;
+    margin-left: 16px;
+
+}
+
+.cards .card .card-info {
+    margin-top: 5px;
+}
+
+.cards .card .card-info,
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards .card .card-info .person {
+    width: 160px;
+}
+
+.cards .card .card-info .person img {
+    width: 38px;
+    height: 38px;
+}
+
+.cards .card .card-info .person span {
+    font-weight: bold;
+}
+
+.cards .card .card-info .rate img {
+    width: 48px;
+    height: 26px;
+}
+@media(max-width: 800px) {
+    header .content .menu {
+        margin-left: 50px;
+    }
+
+    header .content .menu a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    header .content .btns .login-btn,
+    header .content .btns .trail-btn {
+        font-size: 16px;
+        height: 40px;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .banner .b-content {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 50px;
+    }
+
+    .banner .day {
+        top: 120px;
+        left: 20px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
+    }
+
+    .cards .card {
+        width: 300px;
+    }
+
+    .middle-section .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    header .content {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    header .content .menu {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+
+    header .content .menu a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    header .content .btns .login-btn, header .content .btns .trail-btn {
+        font-size: 16px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .banner {
+        margin-top: 80px;
+    }
+
+    .banner .b-content {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 30px;
+    }
+
+    .banner .day {
+        height: 40px;
+        top: 190px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .cards .card {
+        width: 100%;
+    }
+
+    .middle-section .crds .card .brand {
+        position: absolute;
+        top: 880px;
+    }
+
+    .middle-section .content {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .middle-section .m-menu {
+        margin-left: 0px;
+    }
+}
